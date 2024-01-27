@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="navbar">
+		<img src="images/logo.svg" alt="logo">
+		
+		<button id="menubtnMobile" onclick="openNav()"><img src="images/icon-hamburger.svg"></button>
+		<span id="navContainer">
+			<span class="mobnav">
+				<img src="images/logo.svg">
+				<button id="menubtnMobile" onclick="closeNav()"><img src="images/icon-close.svg"></button>
+			</span>
+			<a>About</a>
+			<a>Careers</a>
+			<a>Events</a>
+			<a>Products</a>
+			<a>Support</a>
+		</span>
+	</div>
+	
+	<div class="container">
+		<div class="item-1">
+			
+			<h1>Immersive experiences that deliver</h1>
+		</div>
+		
+		<div class="item-2">
+			<img src="images/desktop/image-interactive.jpg" alt="interactive">
+			
+			<span>
+				<h2>The leader in interactive VR</h2>
+
+				<p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+				projects for some of the best companies around the globe. Our award-winning 
+				creations have transformed businesses through digital experiences that bind 
+				to their brand.</p>
+			</span>
+		</div>
+		
+		<div class="item-3">
+			<h3 class="i3h3">Our creations</h3>
+
+			<button>See all</button>
+			<div class="i3grid">
+				<span class="i3-1">
+					<h3>Deep earth</h3>
+				</span>
+				<span class="i3-2">
+					<h3>Night arcade</h3>
+				</span>
+				<span class="i3-3">
+					<h3>Soccer team VR</h3>
+				</span>
+				<span class="i3-4">
+					<h3>The grid</h3>
+				</span>
+				<span class="i3-5">
+					<h3>From up above VR</h3>
+				</span>
+				<span class="i3-6">
+					<h3>Pocket borealis</h3>
+				</span>
+				<span class="i3-7">
+					<h3>The curiosity</h3>
+				</span>
+				<span class="i3-8">
+					<h3>Make it fisheye</h3>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<img src="images/logo.svg" alt="logo">
+		<span class="social">
+			<img src="images/icon-facebook.svg" alt="icon">
+			<img src="images/icon-twitter.svg" alt="icon">
+			<img src="images/icon-pinterest.svg" alt="icon">
+			<img src="images/icon-instagram.svg" alt="icon">
+		</span>
+		<span class="links">
+			<a>About</a>
+			<a>Careers</a>
+			<a>Events</a>
+			<a>Products</a>
+			<a>Support</a>
+		</span>
+		<h4>© 2021 Loopstudios. All rights reserved.</h4>
+	</footer>
+  <script src="script.js"></script>
+</body>
+</html>
