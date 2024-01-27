@@ -76,13 +76,12 @@ body{
 }
 
 .item-2{
-	widows: 100%;
+	width: 100%;
 	position: relative;
 }
 
 .item-2 img{
-	position: relative;
-	left: 10%;
+	margin-left: 10%;
 	margin-top: 10%;
 }
 
